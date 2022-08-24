@@ -1,0 +1,77 @@
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   
+}
+.nav-container{
+    color:#fff;
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+
+.nav-logo{
+    flex-grow: 5;
+    display: flex;
+    color:white;
+    text-decoration: none;
+}
+.nav-menu{
+    display: flex;
+    flex-grow: 3;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.login{
+    flex-grow: 2;
+    text-align: center;
+    padding:5px;
+    border: 2px solid white;
+    margin: 10px;
+    color:white;
+    text-decoration: none;
+}
+.nav-links{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav-links:hover,.login:hover{
+    cursor: pointer;
+    color:gray
+}
+.nav-logo:hover{
+    cursor:pointer;
+}
+img{
+    width: 1145px;
+    height: 460px;
+    object-fit: cover;
+}
+.sudo-element{
+    position: relative;
+}
+.text-holder{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    position: absolute;
+    top:20%;
+    left:0;
+    color: white;
+    margin-left: 2rem;
+}
+.items{
+    padding: 10px;
+    font-size: 2rem;
+    flex-grow: 1;
+}
+.fa-solid{
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+
