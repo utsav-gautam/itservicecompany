@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css';
 import Navbar from '../Navbar/Navbar';
 import { Routes, Route } from 'react-router-dom'
@@ -11,15 +12,15 @@ import Contact from './Contact';
 import { Component } from 'react';
 import Success from '../Pages/Success'
 class App extends Component {
-  constructor(){
+  constructor() {
     super();
-    this.state={
-      flag:false
+    this.state = {
+      flag: false
     }
   }
   colorChange = () => {
     console.log(this.state.flag)
-    this.setState({flag:!this.state.flag})
+    this.setState({ flag: !this.state.flag })
   }
 
   render() {
@@ -33,7 +34,7 @@ class App extends Component {
           <Route exact path='/services' element={<Services />} />
           <Route exact path='/products' element={<Products />} />
           <Route exact path='/contact' element={<Contact />} />
-          <Route exact path='/contact/success' element={<Success/>}/>
+          <Route exact path='/contact/success' element={<Success />} />
         </Routes>
         <Footer></Footer>
       </>
