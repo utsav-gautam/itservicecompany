@@ -4,7 +4,7 @@ import './Navbar.css'
 function SudoElement() {
     return (
         <div className="sudo-element">
-            <img src="Images/mlImage.jpg" />
+            <img src="Images/mlImage.jpg" alt="banner.jpg" />
             <div className='text-holder'>
                 <h2 className="items">Machine Leaning</h2>
                 <h2 className="items">Cloud Computing</h2>
